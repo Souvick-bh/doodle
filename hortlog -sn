@@ -1,0 +1,82 @@
+* [33mfa25788[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Removed collaboration for temporary time period
+* [33mdaeeaee[m v1 push
+* [33m2559bee[m Link README to notExcalidrawBackend for collaboration setup.
+* [33ma24aa63[m Replace Vite template README with project documentation.
+* [33m8462e66[m link setup time ux
+* [33m9e5d0d3[m popup fix
+* [33m798a93c[m spinner in collab connection
+* [33m3ef8e14[m revert prev commit
+* [33mb57e8e7[m unstaged last commit
+* [33m9762d39[m room close navigation
+* [33mb46bef2[m theme in toaster
+* [33m8b6621a[m room join/leave popup
+* [33md8db155[m removed comments
+* [33ma13e68f[m build
+* [33mf6d9080[m dont replace link on close session
+* [33m897ab48[m localstorage
+* [33m65f27ec[m changing link with collab
+* [33m59532c7[m sharing works with share button
+* [33m0766823[m collab cursor positions added
+* [33m907de6c[m grab text positioning fixed
+* [33m12a623e[m fixed grab jitter
+* [33m0751af5[m grab is local now
+* [33m5a92336[m websocket udpates working
+* [33ma32fb1d[m websocket
+* [33me7565e9[m websocket zod schema
+* [33mefe89e4[m subscription model
+* [33m18f675a[m shape movement with events, inverse events
+* [33m210bdc9[m all shapes working, selection movement needs fixing
+* [33m7dd4e82[m all shapes creation working with events
+* [33m0513ec5[m aero creation working with events
+* [33m8596a0e[m rectangle creation working with events based updates
+* [33m6257ef6[m shapes should not emit events
+* [33mb4d5cf9[m event based shape updates
+* [33m374520a[m mobile touch fix
+* [33m232000c[m font load fix
+*   [33m2a793b2[m Merge pull request #5 from VishwajeetSinghParihar750/first-build
+[32m|[m[33m\[m  
+[32m|[m * [33m37b6553[m build done
+[32m|[m[32m/[m  
+* [33m203d236[m ready to host frontend
+* [33m8801202[m slight mods
+* [33m44d39ec[m proper localStorage working now
+* [33mb2cd56e[m shapes persistence on realod
+* [33m78445e0[m resize below min bug fix
+* [33m1822013[m added reset
+* [33mcd7ed9a[m duplicate style fix
+* [33m162d448[m stroke color bug fix
+* [33m39901bd[m reset action zustand
+* [33m54c0ad3[m fixed colors in both themes
+* [33me393d12[m theme button
+* [33m32e1aac[m canvas responsive
+* [33m3954b8b[m responsive and reset,share button
+* [33m1e8d974[m grab tool
+* [33me17585d[m delete and backspace on selection
+* [33mc58cca4[m delete action update
+* [33m8deb9d4[m clone and delete actions
+* [33m50d9535[m resize 0 size handling
+* [33mb69fcfc[m allow text editing of seelcted text
+* [33m2b18cd9[m cursor start text on double click
+* [33m4972caf[m cursor styling
+* [33mf4fa3e6[m text resize bug
+* [33mcdaf043[m selection mouse events
+* [33m7269a7d[m selected style changes
+* [33md5fdb5d[m selection resize
+* [33me09a097[m selection movement
+* [33m7fe27bb[m adding selection
+* [33m6acd634[m text editing on
+* [33mfc56a99[m lock tool
+* [33m6f9cdac[m more modular
+* [33m18cb18a[m editing text
+* [33m2f3d794[m text w/o edit
+* [33m2a1a04b[m making text
+* [33ma6de4f2[m eraser done
+* [33mc6c9769[m pen done
+* [33m61c648a[m arrow done
+* [33mcf4d257[m line bg
+* [33m99be30a[m line basic
+* [33m276030c[m circle
+* [33m53a9b77[m rect done
+* [33m6cc27fb[m side styling
+* [33mc5c875c[m first
+* [33m6308d30[m first
