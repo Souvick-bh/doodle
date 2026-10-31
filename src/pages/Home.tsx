@@ -5,7 +5,7 @@ import { useEffect, useRef, type ReactElement } from "react";
 import { useResetCanvas, useTheme } from "../store/UiActions.store";
 import type { theme } from "../store/UiActions.store";
 import { useCanvasManager } from "../store/CanvasManager.store";
-import CollabPopup from "../components/home/CollabPopup";
+// import CollabPopup from "../components/home/CollabPopup";
 import type { collabState } from "../classes/feature/Collab/Collab";
 import { useNavigate } from "react-router";
 import { Toaster } from "sonner";
@@ -64,9 +64,9 @@ export default function Home() {
   };
 
   const collabPopupRef = useRef<HTMLDialogElement>(null);
-  const { canvasManager, roomId } = useCanvasManager();
+  const { roomId } = useCanvasManager();
 
-  let collabLink = roomId ? window.location.origin + `/?roomId=${roomId}` : "";
+  //let collabLink = roomId ? window.location.origin + `/?roomId=${roomId}` : "";
 
   let toOpenShareModal = useRef<boolean>(false);
 
@@ -112,10 +112,10 @@ export default function Home() {
   //     collabPopupRef.current?.showModal();
   //   }
   // };
-  const handleCloseSession = () => {
-    collabPopupRef.current?.close();
-    canvasManager?.stopCurrentCollab();
-  };
+  // const handleCloseSession = () => {
+  //   collabPopupRef.current?.close();
+  //   canvasManager?.stopCurrentCollab();
+  // };
 
   //
   const currentTheme = useTheme((state) => state.currentTheme);
@@ -140,11 +140,11 @@ export default function Home() {
   return (
     <>
       <Toaster duration={5000} position="bottom-right" theme={currentTheme} />
-      <CollabPopup
+      {/* <CollabPopup
         ref={collabPopupRef}
         collabLink={collabLink}
         handleCloseSession={handleCloseSession}
-      />
+      /> */}
       <div className="fixed inset-0 bg-bg text-fg ">
         <div className="absolute top-5 left-1/2 -translate-x-1/2 max-md:left-5 max-md:translate-x-0 max-sm:bottom-5 max-sm:top-auto max-sm:left-1/2 max-sm:-translate-x-1/2">
           <Tools />
