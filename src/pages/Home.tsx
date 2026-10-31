@@ -64,7 +64,7 @@ export default function Home() {
   };
 
   const collabPopupRef = useRef<HTMLDialogElement>(null);
-  const { canvasManager, collabState, roomId } = useCanvasManager();
+  const { canvasManager, roomId } = useCanvasManager();
 
   let collabLink = roomId ? window.location.origin + `/?roomId=${roomId}` : "";
 
