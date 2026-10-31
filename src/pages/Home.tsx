@@ -98,20 +98,20 @@ export default function Home() {
     };
   });
 
-  const handleshare = () => {
-    // console.log("handleshare", canvasManager);
-    if (!canvasManager) return;
+  // const handleshare = () => {
+  //   // console.log("handleshare", canvasManager);
+  //   if (!canvasManager) return;
 
-    // console.log(collabState);
-    if (collabState == "closed") {
-      // console.log(toOpenShareModal);
+  //   // console.log(collabState);
+  //   if (collabState == "closed") {
+  //     // console.log(toOpenShareModal);
 
-      canvasManager.startCollab();
-      collabPopupRef.current?.showModal();
-    } else {
-      collabPopupRef.current?.showModal();
-    }
-  };
+  //     canvasManager.startCollab();
+  //     collabPopupRef.current?.showModal();
+  //   } else {
+  //     collabPopupRef.current?.showModal();
+  //   }
+  // };
   const handleCloseSession = () => {
     collabPopupRef.current?.close();
     canvasManager?.stopCurrentCollab();
